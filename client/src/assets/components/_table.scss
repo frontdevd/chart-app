@@ -1,0 +1,16 @@
+table {
+  thead {
+    background: $light;
+  }
+
+  tr td:first-child {
+    background: $light;
+  }
+
+  input {
+    width: 50px;
+    border: 1px solid $light;
+    padding: 4px 3px;
+  }
+
+}

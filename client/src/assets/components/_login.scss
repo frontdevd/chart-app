@@ -1,0 +1,28 @@
+@import "../responsive";
+
+.login-wrapper {
+  width: 570px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+
+  @include lg {
+    width: 90%
+  }
+
+  h4 {
+    margin-bottom: 30px;
+  }
+
+  .login-box {
+    margin: 20px 0 20px;
+
+    .MuiTextField-root {
+      width: 100%;
+    }
+  }
+
+  .MuiListItem-gutters {
+    text-align: center;
+  }
+}
